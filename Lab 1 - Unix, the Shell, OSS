@@ -1,0 +1,7 @@
+Q3. Go into the b01 directory. Make sure you’re in there by running pwd (Present working directory). What does pwd give you (conceptually)?
+/home/jsh/b01
+
+Q4. There’s a hidden file in the b01 directory. What is the secret?
+hunter2
+
+Q5. A malicious user made its way into my computer and created a message split across all the files in nonsense/. What does it say? How did you find the message?
