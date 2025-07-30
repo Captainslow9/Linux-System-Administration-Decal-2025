@@ -1,4 +1,10 @@
-PART 1
+PART 1: Shell spelunking
+
+Q1. ssh into tsunami.ocf.berkeley.edu using your OCF account, or login at ssh.ocf.berkeley.edu
+A1. I used my own VM
+
+Q2. Run the following command to download the file we have provided: wget https://github.com/0xcf/decal-labs/raw/master/b1/b01.tgz
+A2. Done
 
 Q3. Go into the b01 directory. Make sure you’re in there by running pwd (Present working directory). What does pwd give you (conceptually)?
 A3. /home/jsh/b01
@@ -24,5 +30,23 @@ A8. The file a_script contains one line:'echo "Hello World"', so it needs execut
 Q9. Finally, there’s an empty file called hello_world in the directory. Write your name in it! How did you do it?
 A9. I used nano.
 
-PART 2
+PART 2: General Questions
+
+Q1. What differentiates Linux/OSX from operating systems like Windows?
+A1. Linux/macOS emphasize Unix principles, openness, security, and command‑line power. Windows emphasizes GUI usability, broad hardware support, and integrated commercial software.
+
+Q2. What are some differences between the command line and normal (graphical) usage of an OS?
+A2. In practice, on Linux/macOS, the CLI is essential for system administration. On Windows, most casual users rely on the GUI, but PowerShell brings CLI power closer to Unix‑like systems.
+
+Q3. What is the root directory in Linux filesystems? Answer conceptually, as in depth as you would like.
+A3. Definition: The root directory is the topmost directory in the Linux filesystem hierarchy. Represented by a single forward slash: /. All files and directories stem from /, forming a tree structure.
+
+Q4. ls has a lot of cool arguments. Try using them to get extra information such as file permissions, owner name, owner group, file size, and late date edited. In addition, I want to be able to see the size and have the files ordered by last date edited, with the oldest files on top. How would I do this?
+A4. I used command 'ls -lt'
+
+Q5. Instead of showing the first 10 lines of the file big_data.txt, I want to use the head command to show the first 4. How would I do that?
+A5. I used command 'head -4 big_data.txt'
+
+Q6. What’s the difference between cat foo > out.txt and cat foo >> out.txt?
+A6. 'cat foo > out.txt' takes the contents of foo and writes it to out.txt. 'cat foo >> out.txt' takes the contents of foo and appends it to the end of out.txt. In both cases, if out.txt does not exist, it will be created.
 
