@@ -30,6 +30,7 @@ A8. The file a_script contains one line:'echo "Hello World"', so it needs execut
 Q9. Finally, there’s an empty file called hello_world in the directory. Write your name in it! How did you do it?
 A9. I used nano.
 
+
 PART 2: General Questions
 
 Q1. What differentiates Linux/OSX from operating systems like Windows?
@@ -50,3 +51,11 @@ A5. I used command 'head -4 big_data.txt'
 Q6. What’s the difference between cat foo > out.txt and cat foo >> out.txt?
 A6. 'cat foo > out.txt' takes the contents of foo and writes it to out.txt. 'cat foo >> out.txt' takes the contents of foo and appends it to the end of out.txt. In both cases, if out.txt does not exist, it will be created.
 
+Q7. Briefly, what is the difference between permissive and copyleft licenses?
+A7. Permissive: You're permitted to do almost anything — even close it. Copyleft: You must copy the rights forward — keep it open.
+
+Q8. Give an example of a permissive license.
+A8. MIT License (permissive): You can use, copy, modify, merge, publish, distribute, sublicense, and sell the software. No requirement to release derivative works as open source.
+
+Q9. Give an example of (a) open-source software and (b) free, but closed-source software that you use.
+A9. (a) MPV Media Player. (b) Spotify.
